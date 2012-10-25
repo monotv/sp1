@@ -1,0 +1,10 @@
+h1 {
+	font-family: "din-zanox-web-pro-1","din-zanox-web-pro-2",sans-serif;
+	text-transform: uppercase;
+}
+h1 span {
+    bottom: -0.21em;
+    color: #F39300;
+    margin-left: 0.1em;
+    position: relative;
+}
