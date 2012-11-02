@@ -1,10 +1,74 @@
-h1 {
+.tk-din-zanox-web-pro, body {
+    font-family: "din-zanox-web-pro-1","din-zanox-web-pro-2",sans-serif;
+}
+body.din {
+    line-height: 1.4 !important;
+}
+h1,
+button em{
 	font-family: "din-zanox-web-pro-1","din-zanox-web-pro-2",sans-serif;
 	text-transform: uppercase;
 }
 h1 span {
-    bottom: -0.21em;
+    bottom: -0.15em;
     color: #F39300;
     margin-left: 0.1em;
     position: relative;
+}
+#header {
+	text-align: center;
+}
+#header h1 {
+	font-size: 5.125em;
+    font-weight: 900;
+    letter-spacing: -3px;
+    line-height: 0.939em;
+    margin: 0 auto 0.28em;
+    text-transform: uppercase;
+    width: 70%;
+}
+.input-wrapper {
+	margin-bottom: 10px;
+}
+input[type="url"] {
+    background: none repeat scroll 0 0 #E9E9E9;
+    border: 0 none;
+    border-radius: 0.3571em 0.3571em 0.3571em 0.3571em;
+    box-shadow: 1px 1px 4px #E0E0E0 inset;
+    font-size: 0.875em;
+    margin-right: 0.7143em;
+    padding: 0.5em;
+    width: 50%;
+}
+button {
+    background: url("images/bg_login.jpg") no-repeat scroll 0.7143em 50% #F39300;
+    border: 0 none;
+    border-radius: 0.3571em 0.3571em 0.3571em 0.3571em;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: block;
+    float: right;
+    font-size: 0.875em;
+    font-weight: bold;
+    height: 2.2em;
+    padding: 0.1286em 0.4286em 0.1286em 1.7857em;
+    text-transform: uppercase;
+}
+din.button {
+    height: 2.1em;
+}
+din.button {
+    padding-bottom: 0.2em;
+}
+button em {
+    display: block;
+    line-height: 1.4em;
+    margin-top: 0.3em;
+}
+.form-wrapper {
+	margin: 0 auto;
+	width: 500px;
+}
+.form-wrapper label {
+	display: block;
 }

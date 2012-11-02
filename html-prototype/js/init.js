@@ -39,4 +39,4 @@
 	} 	
 }(jQuery));
 
-javascript:(function(){var%20u='http://www.paidonresults.com/deepLinkGenerator?security_id=DHDsEsvBmB&loader=1&url='+escape(location);var%20scriptElement=document.createElement('script');scriptElement.type='text/javascript';scriptElement.src=u;var%20head=document.getElementsByTagName('head')[0];if%20(!head){var%20head=document.getElementsByTagName('body')[0];}if(head){head.appendChild(scriptElement);}else{window.location=u+'&fullpage=1';}}())
+//javascript:(function(){var%20u='http://www.paidonresults.com/deepLinkGenerator?security_id=DHDsEsvBmB&loader=1&url='+escape(location);var%20scriptElement=document.createElement('script');scriptElement.type='text/javascript';scriptElement.src=u;var%20head=document.getElementsByTagName('head')[0];if%20(!head){var%20head=document.getElementsByTagName('body')[0];}if(head){head.appendChild(scriptElement);}else{window.location=u+'&fullpage=1';}}())
